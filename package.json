@@ -1,0 +1,32 @@
+{
+  "name": "aws-serverless-koa",
+  "version": "1.0.0",
+  "description": "This library enables you to utilize AWS Lambda and Amazon API Gateway to respond to web and API requests using the Koa.js application framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compwright/aws-serverless-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "serverless",
+    "aws",
+    "lambda",
+    "api",
+    "gateway",
+    "middleware",
+    "event"
+  ],
+  "author": "Jonathon Hill <jhill9693@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compwright/aws-serverless-koa/issues"
+  },
+  "homepage": "https://github.com/compwright/aws-serverless-koa#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5"
+  }
+}
