@@ -2,4 +2,7 @@
 
 const { createServer, proxy } = require('aws-serverless-express');
 
-module.exports = app => (event, ctx) => { proxy(createServer(app.callback()), event, ctx); }
+module.exports = app => {
+  const server = createServer(app.callback());
+  return (event, ctx) => { proxy(server, event, ctx); };
+};
