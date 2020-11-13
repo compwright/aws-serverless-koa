@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/compwright/aws-serverless-koa#readme",
   "dependencies": {
-    "aws-serverless-express": "^3.3.5"
+    "aws-serverless-express": "^3.3.8"
   }
 }
